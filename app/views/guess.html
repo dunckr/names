@@ -1,0 +1,14 @@
+<div class="thumbnails span5">
+    <div class="thumbnail">
+    
+      <img class="img-rounded" ng-src="{{person.pic}}">
+        <form>
+          <div ng-repeat="option in person.options">
+              <label><input type="radio" value="{{option}}" ng-model="person.answer" name="{{option}}"><i class="option">{{option}}</i></label>
+          </div>
+      </form>
+    </div>
+
+  </div>
+</div>
+
